@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588693333339",
+    "project_id": "ab-chat-app-dad63",
+    "storage_bucket": "ab-chat-app-dad63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588693333339:android:036b94fe34fdf16319667e",
+        "android_client_info": {
+          "package_name": "com.example.abchatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588693333339-v0a2nhvctdd3mgrreojo3mngusaci463.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbPq_UtY-GpC6AzL-v8oQrn_VsG4o9JmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588693333339-v0a2nhvctdd3mgrreojo3mngusaci463.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
