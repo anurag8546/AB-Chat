@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
         showpass.setOnClickListener{
             if(showpass.isChecked){
                 enterpass.transformationMethod = HideReturnsTransformationMethod.getInstance()
-
             } else{
                 enterpass.transformationMethod = PasswordTransformationMethod.getInstance()
             }

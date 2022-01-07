@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ABCHATAPP">
         <activity
+            android:name=".Chat"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
             android:name=".LogIn"
             android:exported="false" />
         <activity
