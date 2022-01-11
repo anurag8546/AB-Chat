@@ -17,3 +17,6 @@ This is a chatting app named AB as a project under GDSC(Google Developer Student
 - [Harshit Chaurasia](https://github.com/harshit21-02)
 - [Anurag Mishra](https://github.com/anurag8546)
 
+
+## App link
+ -will be updated soon
