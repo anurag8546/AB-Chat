@@ -19,4 +19,4 @@ This is a chatting app named AB as a project under GDSC(Google Developer Student
 
 
 ## App link
- -[AB Chat](https://github.com/anurag8546/AB-Chat/blob/gh-pages/.apk%20file/AB%20chat%20app%20apk.apk)
+ - [AB Chat](https://github.com/anurag8546/AB-Chat/blob/gh-pages/.apk%20file/AB%20chat%20app%20apk.apk)
