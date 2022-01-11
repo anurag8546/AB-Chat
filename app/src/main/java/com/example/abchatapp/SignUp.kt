@@ -43,25 +43,36 @@ class SignUp : AppCompatActivity() {
             val name = entername.text.toString()
             val email = entermail.text.toString()
             val password = enterpass.text.toString()
+            val confirmpassword = confirmpass.text.toString()
 
-            signUp(name,email,password)
+            signUp(name,email,password,confirmpassword)
         }
     }
 
-    private fun signUp(name: String,email: String, password: String) {
-        mAuth.createUserWithEmailAndPassword(email, password)
-            .addOnCompleteListener(this) { task ->
-                if (task.isSuccessful) {
-                    addUserToDatabase(name,email,mAuth.currentUser?.uid!!)
-                    Toast.makeText(this@SignUp,"Registered!",Toast.LENGTH_SHORT).show()
-                    val intent = Intent(this@SignUp,MainActivity::class.java)
-                    finish()
-                    startActivity(intent)
-                } else {
-                    // If sign in fails, display a message to the user.
-                    Toast.makeText(this@SignUp,"Authentication Failed!",Toast.LENGTH_SHORT).show()
+
+
+
+    private fun signUp(name: String,email: String, password: String,confirmp: String) {
+
+        if(password==confirmp) {
+            mAuth.createUserWithEmailAndPassword(email, password)
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        addUserToDatabase(name, email, mAuth.currentUser?.uid!!)
+                        Toast.makeText(this@SignUp, "Registered!", Toast.LENGTH_SHORT).show()
+                        val intent = Intent(this@SignUp, MainActivity::class.java)
+                        finish()
+                        startActivity(intent)
+                    } else {
+                        // If sign in fails, display a message to the user.
+                        Toast.makeText(this@SignUp, "Authentication Failed!", Toast.LENGTH_SHORT)
+                            .show()
+                    }
                 }
-            }
+        }
+        else{
+            Toast.makeText(this@SignUp, "Password does not match", Toast.LENGTH_SHORT).show()
+        }
     }
 
 
