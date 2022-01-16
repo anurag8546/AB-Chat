@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/ABCHATAPP/app/src/main/res/drawable/edit_background.xml" value="0.26205128205128203" />
         <entry key="..\:/ABCHATAPP/app/src/main/res/drawable/edit_solidbg.xml" value="0.26205128205128203" />
+        <entry key="..\:/ABCHATAPP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26614583333333336" />
         <entry key="..\:/ABCHATAPP/app/src/main/res/drawable/message_box_background.xml" value="0.26205128205128203" />
         <entry key="..\:/ABCHATAPP/app/src/main/res/layout/activity_chat.xml" value="0.264" />
         <entry key="..\:/ABCHATAPP/app/src/main/res/layout/activity_log_in.xml" value="0.1431159420289855" />
@@ -22,6 +23,8 @@
         <entry key="..\:/ABCHATAPP/app/src/main/res/layout/signup.xml" value="0.264" />
         <entry key="..\:/ABCHATAPP/app/src/main/res/layout/userlayout.xml" value="0.12708333333333333" />
         <entry key="..\:/ABCHATAPP/app/src/main/res/menu/menu.xml" value="0.25" />
+        <entry key="..\:/ABCHATAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26614583333333336" />
+        <entry key="..\:/ABCHATAPP/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26614583333333336" />
       </map>
     </option>
   </component>
